@@ -3,7 +3,6 @@ var mongoose = require("mongoose");
 
 var app = express();
 var PORT = process.env.PORT || 3002;
-const uri = process.env.MONGODB_URI;
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
